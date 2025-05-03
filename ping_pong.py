@@ -39,3 +39,16 @@ game = True
 finish = False
 clock = time.Clock()
 FPS = 60
+
+racket1 = Player('racket1.png', 30, 200, 4, 50, 150)
+racket2 = Player('racket2.png', 520, 200, 4, 50, 150)
+ball = GameSprite('ball.png', 200, 200, 4, 50, 50)
+
+font.init()
+font = font.Font(None, 35)
+lose1 = font.render('PLAYER 1 LOSE!', True, (180, 0, 0))
+lose2 = font.render('PLAYER 2 LOSE!', True, (180, 0, 0))
+
+
+
+
